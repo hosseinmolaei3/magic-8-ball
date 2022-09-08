@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>magic 8</title>
+</head>
+<body>
+    <div id="ball" class="ball">
+        <div id="show" class="show">
+            <p id="text" class="text">8</p>
+        </div>
+    </div>
+    <div id="btn" class="btn">
+        <button onclick="guess()">Ask me anything</button>
+    </div>
+</body>
+<script>
+    var array_g=["do it","do not do","Very good","very bad","No idea"];
+    var result_text=document.getElementById("text");
+    function guess(){
+        var i_index=Math.floor(Math.random()*array_g.length);
+        result_text.innerHTML=array_g[i_index];
+    }
+</script>
+</html>

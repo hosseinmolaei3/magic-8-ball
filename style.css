@@ -1,0 +1,103 @@
+
+.show{
+    border-radius: 6rem 6rem 6rem 6rem;
+    width: 12%;
+    background-color: black;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border-radius: 3rem 3rem 3rem 3rem;
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+    height: 5rem;
+}
+.ball{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+@media screen and (max-width:300px) {
+    .show{
+        width: 37%;
+        height: 7rem;
+    }
+    p{
+        width: 46%;
+        height: 3rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .show{
+        width: 27%;
+        height: 8rem;
+    }
+    p{
+        width: 40%;
+    height: 4rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .show{
+        width: 33%;
+        height: 10rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .show{
+        width: 10rem;
+        height: 7rem;
+    }
+    p{
+        width: 46%;
+        height: 3rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .show{
+        width: 10rem;
+    height: 10rem;
+    }
+    p{
+        width: 5rem;
+    height: 5rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .show{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 10rem 10rem 10rem 10rem;
+    }
+    p{
+        width: 9rem;
+        height: 9rem;
+        border-radius: 5rem 5rem 5rem 5rem;
+    }
+}
+@media screen and (max-width:1400px) {
+    .show{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 10rem 10rem 10rem 10rem;
+    }
+    p{
+        width: 9rem;
+        height: 9rem;
+        border-radius: 5rem 5rem 5rem 5rem;
+    }
+}
